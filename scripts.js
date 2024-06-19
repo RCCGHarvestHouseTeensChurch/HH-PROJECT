@@ -49,4 +49,10 @@ if(window.history.replaceState){
     window.history.replaceState(null, null, window.location.href);
   };
 
+document.getElementById('register-btn').addEventListener('click', function() {
+    document.getElementById('popup-form').style.display = 'flex';
+});
 
+function closeForm() {
+    document.getElementById('popup-form').style.display = 'none';
+}
