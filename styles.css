@@ -3981,7 +3981,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffc800;
+  color: #0ba360; /*#ffc800*/
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3991,7 +3991,8 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #cca000;
+  /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673); */
+  color: #0ba360;/*#cca000*/
 }
 .nav-link.disabled {
   color: #180f03;
@@ -4038,7 +4039,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #0ba360;/*#ffc800*/
 }
 
 .nav-fill > .nav-link,
@@ -11398,7 +11399,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #0ba360;/*#ffc800*/
 }
 
 @media (min-width: 992px) {
@@ -11859,6 +11860,63 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin: 40px 40px;
+  /*border: 1px solid blue;*/
+}
+
 /*  * mofes correction for css */
 
 /* Overlay style */
@@ -11957,3 +12015,4 @@ button:hover {
 
 
 /* end of mofes addition correction  */
+
