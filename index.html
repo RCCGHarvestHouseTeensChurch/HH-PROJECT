@@ -22,7 +22,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
+
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/hh logo 3 upgraded@2x.png" style="max-width: 150px; height: auto;" alt="Church logo" /></a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -633,37 +635,41 @@
                                         <i class="fas fa-times me-1"></i>
                                         Close
                                     </button>
-                                    <button class="btn-hover color-5">Register</button>
-                                    <div id="popup-form" class="overlay">
-                                        <div class="popup">
-                                            <span class="close-btn" onclick="closeForm()">&times;</span>
-                                            <h2>Summer Camp Registration</h2>
-                                            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post">
-                                                <label for="name">Name:</label>
-                                                <input type="text" id="name" name="name" required>
-                                                <label for="age">Age:</label>
-                                                <input type="number" id="age" name="age" required>
-                                                <label for="parent-name">Parent/Guardian Name:</label>
-                                                <input type="text" id="parent-name" name="parent_name" required>
-                                                <label for="contact-info">Contact Information:</label>
-                                                <input type="text" id="contact-info" name="contact_info" required>
-                                                <label for="medical-info">Medical Information:</label>
-                                                <textarea id="medical-info" name="medical_info" required></textarea>
-                                                <label for="consent">Parental Consent:</label>
-                                                <input type="checkbox" id="consent" name="consent" required>
-                                                <button type="submit">Register</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                    <!-- mofe did this-->
+    <button class="register-btn" onclick="openForm()">Register for Summer Camp</button>
+
+    <div id="popup-form" class="overlay">
+        <div class="popup">
+            <span class="close-btn" onclick="closeForm()">&times;</span>
+            <h2>Summer Camp Registration</h2>
+            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post" class="signup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <label for="parent-name">Parent/Guardian Name:</label>
+                <input type="text" id="parent-name" name="parent_name" required>
+                <label for="contact-info">Contact Information:</label>
+                <input type="text" id="contact-info" name="contact_info" required>
+                <label for="medical-info">Medical Information:</label>
+                <textarea id="medical-info" name="medical_info" required></textarea>
+                <div class="terms">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">Parental Consent</label>
+
                 </div>
-            </div>
+                <button type="submit" class="register-btn">Register</button>
+            </form>
         </div>
+
         <!-- Event 3 Modal PopUp-->
+
+    </div>
+    
+       <!-- mofe did this-->  
+
+        <!-- Portfolio item 3 modal popup-->
+
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
