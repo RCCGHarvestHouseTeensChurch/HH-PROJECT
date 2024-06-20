@@ -608,7 +608,7 @@
         <div class="popup">
             <span class="close-btn" onclick="closeForm()">&times;</span>
             <h2>Summer Camp Registration</h2>
-            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post">
+            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post" class="signup-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="age">Age:</label>
@@ -619,12 +619,15 @@
                 <input type="text" id="contact-info" name="contact_info" required>
                 <label for="medical-info">Medical Information:</label>
                 <textarea id="medical-info" name="medical_info" required></textarea>
-                <label for="consent">Parental Consent:</label>
-                <input type="checkbox" id="consent" name="consent" required>
-                <button type="submit">Register</button>
+                <div class="terms">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">Parental Consent</label>
+                </div>
+                <button type="submit" class="register-btn">Register</button>
             </form>
         </div>
     </div>
+    
        <!-- mofe did this-->  
 
         <!-- Portfolio item 3 modal popup-->
