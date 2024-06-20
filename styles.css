@@ -11859,3 +11859,101 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+/*  * mofes correction for css */
+
+/* Overlay style */
+.overlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-color: rgba(0,0,0,0.7); 
+  z-index: 999;
+  cursor: pointer;
+}
+
+/* Popup style */
+.popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button style */
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Form styles */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.signup-form input, .signup-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form textarea {
+  resize: vertical;
+}
+
+
+.terms input {
+  margin-right: 5px; /* Adjust space between checkbox and label */
+  margin-top: 0;
+  margin-bottom: 0; /* Align the checkbox with the label text */
+}
+.terms input {
+  margin-right: 10px;
+}
+
+.terms label {
+  margin: 0;
+}
+
+/* Register button style */
+.register-btn {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* end of mofes addition correction  */
