@@ -10,29 +10,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- .alert-success{
-  z-index: 1;
-  background: #9fceaa;
-  font-size: 18px;
-  padding: 20px 40px;
-  position: fixed;
-  right: 0;
-  top: 10px;
-  border-left: 8px solid #22e763;
-  border-radius: 4px;
-}
-
-.alert-error{
-  z-index: 1;
-  background: #FFF3CD;
-  font-size: 18px;
-  padding: 20px 40px;
-  position: fixed;
-  right: 0;
-  top: 10px;
-  border-left: 8px solid #FFA502;
-  border-radius: 4px;
-}
  #welcome{
   text-align: center;
   color: white;
@@ -43,16 +20,10 @@
   color:  rgb(211, 129, 22);
 }
 .page-section{
-  background-image: url("img/avatar2.jpg");
+  background-color: white;
 }
-.qw{
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#about{
-  background-color: rgb(33, 66, 75);
-}
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3981,7 +3952,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0ba360; /*#ffc800*/
+  color: #ffc800;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3991,8 +3962,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673); */
-  color: #0ba360;/*#cca000*/
+  color: #cca000;
 }
 .nav-link.disabled {
   color: #180f03;
@@ -4039,7 +4009,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #0ba360;/*#ffc800*/
+  background-color: #ffc800;
 }
 
 .nav-fill > .nav-link,
@@ -4497,10 +4467,8 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: #0ba360;
-  border-color: #28f39b;
-  /*color: rgba(0, 0, 0, 0.55);*/
-  /*border-color: rgba(0, 0, 0, 0.1);*/ /*#f0f0f0*/
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -4527,17 +4495,15 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.874);
+  color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: #0ba360;
-  border-color: #28f39b;
-  /*color: rgba(255, 255, 255, 0.55);*/
-  /*border-color: rgba(255, 255, 255, 0.1);*/
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -11358,7 +11324,7 @@ p {
   }
 }
 .btn-xl {
-  padding: 1rem 2.5rem;
+  padding: 1.25rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
@@ -11377,7 +11343,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #f0f0f0;/*#212529*/
+  background-color: #212529;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11399,11 +11365,11 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #000;
+  color: #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0ba360;/*#ffc800*//*#f0f0f0*/
+  color: #ffc800;
 }
 
 @media (min-width: 992px) {
@@ -11423,10 +11389,9 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
+    padding-top: rem;
     padding-bottom: 1rem;
-    background-color: #f0f0f0;
-    /*background-color: #212529;*/
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11761,7 +11726,7 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center;
 }
-section#contact .section-heading {
+section, .section-heading {
   color: #fff;
 }
 section#contact form#contactForm .form-group {
@@ -11814,212 +11779,3 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.popup {
-  background: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  width: 90%;
-  max-width: 600px;
-  position: relative;
-}
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-label,
-input,
-textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.buttons {
-  margin: 10%;
-  text-align: center;
-}
-
-.btn-hover {
-  width: 200px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align: center;
-  border: none;
-  background-size: 300% 100%;
-
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.btn-hover:hover {
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus {
-  outline: none;
-}
-
-.btn-hover.color-5 {
-  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
-  font-size: 1.125rem;
-  font-weight: 700;
-  padding: 1rem 2.5rem;
-}
-
-.row2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 35px;
-  margin: 40px 40px;
-  /*border: 1px solid blue;*/
-}
-
-/*  * mofes correction for css */
-
-/* Overlay style */
-.overlay {
-  position: fixed; 
-  display: none; 
-  width: 100%; 
-  height: 100%; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  background-color: rgba(0,0,0,0.7); 
-  z-index: 999;
-  cursor: pointer;
-}
-
-/* Popup style */
-.popup {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 500px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Close button style */
-.close-btn {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-/* Form styles */
-.signup-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.signup-form label {
-  margin: 10px 0 5px;
-  text-align: left;
-}
-
-.signup-form input, .signup-form textarea {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.signup-form textarea {
-  resize: vertical;
-}
-
-
-.terms input {
-  margin-right: 5px; /* Adjust space between checkbox and label */
-  margin-top: 0;
-  margin-bottom: 0; /* Align the checkbox with the label text */
-}
-.terms input {
-  margin-right: 10px;
-}
-
-.terms label {
-  margin: 0;
-}
-
-/* Register button style */
-.register-btn {
-  background-color: #4CAF50; /* Green background */
-  border: none;
-  color: white; /* White text */
-  padding: 10px 20px; /* Padding */
-  text-align: center; /* Center text */
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 0;
-  cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease;
-}
-
-.register-btn:hover {
-  background-color: #45a049; /* Darker green on hover */
-}
-
-
-/* end of mofes addition correction  */
-
