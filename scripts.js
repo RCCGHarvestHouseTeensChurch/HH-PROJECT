@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-/*!
-* Start Bootstrap - Agency v7.0.8 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
-=======
->>>>>>> 211202f (Updated Responsiveness Registration page)
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -61,9 +49,6 @@ if(window.history.replaceState){
     window.history.replaceState(null, null, window.location.href);
   };
 
-<<<<<<< HEAD
-
-=======
 document.getElementById('register-btn').addEventListener('click', function() {
     document.getElementById('popup-form').style.display = 'flex';
 });
@@ -82,5 +67,4 @@ function closeForm() {
     document.getElementById('popup-form').style.display = 'none';
 }
 
-/*  * mofes correction for jss */
->>>>>>> 211202f (Updated Responsiveness Registration page)
+

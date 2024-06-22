@@ -3981,11 +3981,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-<<<<<<< HEAD
-  color: #ffc800;
-=======
   color: #0ba360; /*#ffc800*/
->>>>>>> 211202f (Updated Responsiveness Registration page)
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3995,12 +3991,9 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-<<<<<<< HEAD
-  color: #cca000;
-=======
   /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673); */
   color: #0ba360;/*#cca000*/
->>>>>>> 211202f (Updated Responsiveness Registration page)
+
 }
 .nav-link.disabled {
   color: #180f03;
@@ -4047,11 +4040,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-<<<<<<< HEAD
-  background-color: #ffc800;
-=======
   background-color: #0ba360;/*#ffc800*/
->>>>>>> 211202f (Updated Responsiveness Registration page)
 }
 
 .nav-fill > .nav-link,
@@ -4509,8 +4498,10 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: #0ba360;
+  border-color: #28f39b;
+  /*color: rgba(0, 0, 0, 0.55);*/
+  /*border-color: rgba(0, 0, 0, 0.1);*/ /*#f0f0f0*/
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -4537,15 +4528,17 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.874);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: #0ba360;
+  border-color: #28f39b;
+  /*color: rgba(255, 255, 255, 0.55);*/
+  /*border-color: rgba(255, 255, 255, 0.1);*/
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -11385,7 +11378,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #f0f0f0;/*#212529*/
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11407,19 +11400,11 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-<<<<<<< HEAD
-  color: #fff;
-  letter-spacing: 0.0625em;
-}
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
-=======
   color: #000;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0ba360;/*#ffc800*/
->>>>>>> 211202f (Updated Responsiveness Registration page)
+  color: #0ba360;/*#ffc800*//*#f0f0f0*/
 }
 
 @media (min-width: 992px) {
@@ -11441,12 +11426,9 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-<<<<<<< HEAD
-    background-color: #212529;
-=======
     background-color: #f0f0f0;
     /*background-color: #212529;*/
->>>>>>> 211202f (Updated Responsiveness Registration page)
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11833,9 +11815,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-<<<<<<< HEAD
-}
-=======
 }
 
 .overlay {
@@ -11862,7 +11841,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   max-height: 80vh;
   padding: 20px; 
 }
-
 
 
 .close-btn {
@@ -12027,7 +12005,8 @@ button:hover {
 }
 
 /* Register button style */
-.upload{
+
+.register-btn {
   background-color: #4CAF50; /* Green background */
   border: none;
   color: white; /* White text */
@@ -12049,4 +12028,3 @@ button:hover {
 
 /* end of mofes addition correction  */
 
->>>>>>> 211202f (Updated Responsiveness Registration page)
