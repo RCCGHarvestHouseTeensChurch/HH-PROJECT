@@ -3982,6 +3982,7 @@ textarea.form-control-lg {
 .nav-link:hover, .nav-link:focus {
   /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673); */
   color: #0ba360;/*#cca000*/
+
 }
 .nav-link.disabled {
   color: #180f03;
@@ -11425,6 +11426,7 @@ h3.section-subheading1
     padding-bottom: 1rem;
     background-color: #f0f0f0;
     /*background-color: #212529;*/
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11832,7 +11834,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 90%;
   max-width: 600px;
   position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 80vh;
+  padding: 20px; 
 }
+
 
 .close-btn {
   position: absolute;
@@ -11999,6 +12006,7 @@ button:hover {
 }
 
 /* Register button style */
+
 .register-btn {
   background-color: #4CAF50; /* Green background */
   border: none;
