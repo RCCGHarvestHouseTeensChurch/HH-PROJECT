@@ -49,7 +49,7 @@ if(window.history.replaceState){
     window.history.replaceState(null, null, window.location.href);
   };
 
-document.getElementById('register-btn').addEventListener('click', function() {
+document.getElementById('btn-hover color-5').addEventListener('click', function() {
     document.getElementById('popup-form').style.display = 'flex';
 });
 
