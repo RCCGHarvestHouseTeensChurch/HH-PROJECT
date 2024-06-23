@@ -66,5 +66,3 @@ function openForm() {
 function closeForm() {
     document.getElementById('popup-form').style.display = 'none';
 }
-
-
