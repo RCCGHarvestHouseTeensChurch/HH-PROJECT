@@ -12026,6 +12026,14 @@ button:hover {
 .register-btn:hover {
   background-color: #45a049; /* Darker green on hover */
 }
-
+/*
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+  */
 
 /* end of mofes addition correction  */
