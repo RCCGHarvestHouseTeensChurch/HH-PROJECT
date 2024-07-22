@@ -20,6 +20,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
 
@@ -581,7 +582,7 @@
                                             <span class="close-btn" onclick="closeForm()">&times;</span>
                                             <h2>Summer Camp Registration</h2>
 
-                                            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post" class="signup-form">
+                                            <form action="https://sendpoint.io/id/sxraA3L8xc" method="post" class="signup-form" onsubmit="return checkAge()">
 
                                                 <label for="name">Name:</label>
                                                 <input type="text" id="name" name="name" required>
@@ -619,7 +620,7 @@
                                                 <label for="Expectations">Expectations</label>
                                                 <input type="text" id="expectations" name="expectations" required>
                                                 
-                                                <button type="submit">Submit</button>
+                                                <button type="submit" >Submit</button>
 
                                                 </div>
                                                 
@@ -629,7 +630,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -679,8 +680,9 @@
         <script src="scripts.js"></script>
         <!--Vercel Performance Tracker-->
         <script>
-            window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
         </script>
         <script defer src="/_vercel/speed-insights/script.js"></script>
+       
     </body>
 </html>

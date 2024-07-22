@@ -62,7 +62,16 @@ function closeForm() {
 function openForm() {
     document.getElementById('popup-form').style.display = 'flex';
 }
-
 function closeForm() {
     document.getElementById('popup-form').style.display = 'none';
+}
+function checkAge() {
+    var age = document.getElementById('age').value;
+    if (age < 18) {
+        alert('You need to fill a consent form(Less than 18). You will be redirected to the consent form page.');
+        window.location.href = './assets/LP35 SUMMER CAMP CONSENT FORM 24.pdf';
+        console.log("You are young!")
+        return false;
+    }
+    return true;
 }
